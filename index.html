@@ -17,17 +17,13 @@
 </script>
 
 
-<script>
-    window._pcq.push(['triggerOptIn',{subscriberSegment: 'homepage', modal: {text: 'Get instant alerts from our website. Please subscribe.', blackenBackground: true}}]); //Calls triggerOptIn with custom text, blackened background and segment as 'homepage'
-    </script>
-
     <script>
 window._pcq = window._pcq || [];
 _pcq.push(['APIReady', callbackOnAPIReady]); //will execute callback function when PushCrew API is ready
 
 function callbackOnAPIReady() {
     //now api is ready
-    _pcq.push(['addSubscriberToSegment', 'HTTPS_Segment_India', callbackForAddToSegment]);
+    _pcq.push(['addSubscriberToSegment', 'Segment_JSAPI', callbackForAddToSegment]);
 }
 
 function callbackForAddToSegment(response) {
