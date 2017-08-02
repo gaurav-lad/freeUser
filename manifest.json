@@ -1,6 +1,6 @@
 {
-    "name": "test HTTPS",
-    "short_name": "test HTTPS",
+    "name": "HTTPS",
+    "short_name": "HTTPS",
     "icons": [{
         "src": "/logo_192_by_192.png",
         "sizes": "192x192",
